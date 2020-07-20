@@ -1,5 +1,5 @@
 {
-  "name": "CRA_TEMPLATE_APP_NAME_LOWERCASE",
+  "name": "${CRA_TEMPLATE_APP_NAME_LOWERCASE}",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
