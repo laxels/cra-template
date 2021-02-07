@@ -15,6 +15,7 @@ if [ "$DESTINATION" == "" ] || [ "$APP_NAME" == "" ]; then
   usage
 fi
 
+mkdir -p "$DESTINATION"
 cp .eslintignore .eslintrc.js .gitignore .prettierrc package.json tsconfig.json yarn.lock "$DESTINATION"
 cp -r src "$DESTINATION"/src
 cp -r public "$DESTINATION"/public
