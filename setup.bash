@@ -8,6 +8,7 @@ APP_NAME="$2"
 
 usage() {
   echo "Usage: ./setup.bash <destination> <app-name>"
+  echo "Example: ./setup.bash ../project-dir \"My App\""
   exit 1
 }
 
