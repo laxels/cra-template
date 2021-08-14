@@ -33,4 +33,4 @@ sed -i '' 's/${CRA_TEMPLATE_APP_NAME}/'"$APP_NAME"'/g' "$DESTINATION"'/README.md
 sed -i '' 's/${CRA_TEMPLATE_APP_NAME_LOWERCASE}/'"$(lower $APP_NAME)"'/g' "$DESTINATION"'/package.json'
 
 cd "$DESTINATION"
-yarn upgrade -L
+yarn && yarn upgrade -L
